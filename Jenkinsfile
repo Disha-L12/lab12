@@ -7,7 +7,7 @@ pipeline{
   stages{
     stage('Checkout'){
     steps{
-        git branch:'master',url:'http://github.com/Disha-L12/lab12.git'
+        git branch:'master',url:'https://github.com/Disha-L12/lab12.git'
         }
         }
    stage('Build'){
