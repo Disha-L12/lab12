@@ -25,6 +25,7 @@ pipeline{
      sh 'gradle run'
      }
      }
+  }
   post {
      success{
       echo "build successfully"
@@ -35,4 +36,4 @@ pipeline{
        }
        }
        }
-       }
+       
